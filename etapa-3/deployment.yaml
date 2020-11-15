@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-go
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app-go
+  template:
+    metadata:
+      labels:
+        app: app-go
+    spec:
+      containers:
+      - name: app-go
+        image: gabriel06/go-k8s:latest
+        ports:
+        - containerPort: 8000
