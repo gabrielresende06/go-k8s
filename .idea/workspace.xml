@@ -20,14 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a4323e8-fef3-45d9-8473-234d54afb7ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloudbuild.yaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/etapa-3/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/etapa-3/main_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/etapa-3/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudbuild.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudbuild.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudbuild.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
