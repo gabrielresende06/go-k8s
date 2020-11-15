@@ -1,0 +1,5 @@
+steps:
+  - id: "Rodando testes"
+    name: 'gcr.io/cloud-builders/go'
+    args: [ 'test' ]
+    env: [ 'GOPATH=/etapa-3' ]
