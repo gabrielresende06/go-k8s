@@ -11,7 +11,7 @@ data:
       location / {
         proxy_set_header X-Forwarded-For $remote_addr;
         proxy_set_header Host            $http_host;
-        proxy_pass http://app-go:8000/;
+        proxy_pass http://app-go-nginx:8000/;
       }
 
       # Media: images, icons, video, audio, HTC
