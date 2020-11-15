@@ -1,5 +1,13 @@
 steps:
+  - id: "Rodando docker-compose"
+    name: 'docker/compose'
+    args: [ '-f', 'docker-compose.yml', 'up', '-d' ]
+
+  - id: "Rodando docker ps"
+    name: 'docker'
+    args: [ 'ps' ]
+
   - id: "Rodando testes"
-      name: 'gcr.io/cloud-builders/go'
-      args: [ 'test' ]
-      env: [ 'GOPATH=/src' ]
+    name: 'gcr.io/cloud-builders/go'
+    args: [ 'test' ]
+    env: [ 'GOPATH=/src' ]
